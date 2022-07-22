@@ -13,7 +13,10 @@ let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-form.addEventListener('mouseover', (event) => {});
 
-onmouseover = (event) => { };
+const catPhoto = document.querySelector('img')
+
+catPhoto.addEventListener('mouseover', (event) => {
+	alert('you're a mice eater')
+});
 
